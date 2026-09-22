@@ -1,23 +1,24 @@
-# Final Deployment Checklist
+# Deployment checklist
 
-## Before GitHub
-- [ ] `index.html` is in the repository root.
-- [ ] No `code.html` is required.
-- [ ] `.gitignore` is present.
-- [ ] No local computer paths are referenced.
+## Repository
+- [x] `index.html` is in the repository root
+- [x] Nested zip folder flattened
+- [x] `.gitignore` is present
+- [x] `vercel.json` present
+- [x] Hash links match section IDs (`#research`, `#top`)
+- [x] Footer matches contact details
 
 ## GitHub
-- [ ] Create a public repository.
-- [ ] Upload the contents of this folder.
-- [ ] Commit the files.
-- [ ] Open `index.html` in the repository and confirm it is present.
+- [x] Public repository: https://github.com/2410305056-tech/priya-saini-portfolio
+- [x] Files committed at the root
 
 ## Vercel
-- [ ] Import the GitHub repository.
-- [ ] Use a static/Other framework preset if requested.
-- [ ] Leave Build Command empty.
-- [ ] Deploy.
-- [ ] Test the public URL on desktop and mobile.
+- [x] Static project deployed
+- [x] Public URL: https://priya-saini-portfolio-teal.vercel.app/
+- [x] Homepage returns HTTP 200
+- [x] SSO protection disabled for the public alias
 
 ## Assignment
-Submit only the public Vercel URL.
+Submit only the public Vercel URL:
+
+https://priya-saini-portfolio-teal.vercel.app/

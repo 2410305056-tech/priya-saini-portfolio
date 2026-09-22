@@ -12,6 +12,12 @@ Open `index.html` in a browser, or from this folder:
 npx --yes serve .
 ```
 
+## Live site
+
+Public Vercel URL: https://priya-saini-portfolio-teal.vercel.app/
+
+GitHub: https://github.com/2410305056-tech/priya-saini-portfolio
+
 ## Deploy
 
 1. Push this repository to GitHub.
